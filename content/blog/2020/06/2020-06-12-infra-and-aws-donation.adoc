@@ -5,7 +5,6 @@ tags:
 - aws
 - community
 - infrastructure
-- kubernetes
 author: olblak
 opengraph:
   image: /images/post-images/2020-06-12-infrastructure-opengraph.png
@@ -13,7 +12,9 @@ opengraph:
 
 image:/images/post-images/2020-06-12-infra-update/infrastructure-opengraph.png[World map,role="center", float="right", height=231]
 
-During April 2020:
+The Jenkins project relies heavily on its infrastructure.
+We use websites like link:/[www.jenkins.io] and link:https://plugins.jenkins.io/[plugins.jenkins.io], ticketing systems like link:https://issues.jenkins.io/[issues.jenkins.io]  , CI/CD infrastructure like link:https://ci.jenkins.io/[ci.jenkins.io] , and many other services.
+Just to provide some context about the Jenkins infrastructure scale, here are some stats from April 2020:
 
 * Over 600 000 people visited link:https://www.jenkins.io/[www.jenkins.io]
 * Over 250 000 Jenkins servers regularly checked the
@@ -22,17 +23,15 @@ During April 2020:
 * Over 43 000 continuous integration jobs ran on link:https://ci.jenkins.io/[ci.jenkins.io]
 * Over 950 plugins ran their continuous integration pipelines on link:https://ci.jenkins.io/[ci.jenkins.io]
 
-All those services require infrastructure.
-The Jenkins project relies heavily on its infrastructure.
-We use websites like link:/[www.jenkins.io] and link:https://plugins.jenkins.io/[plugins.jenkins.io], ticketing systems like link:https://issues.jenkins.io/[issues.jenkins.io]  , CI/CD infrastructure like link:https://ci.jenkins.io/[ci.jenkins.io] , and many other services.
-And like any organization, there are specific people who make sure that those services are always up and running.
 
-The Jenkins project, as an open source project, is built and maintained by its awesome community of users.
-Everyone is welcome to participate.
-Infrastructure is no exception.
+The Jenkins project, as an open source project, is built and maintained by its awesome community.
+Like in any organization, there are specific people who make sure that those services are always up and running.
+Everyone is welcome to link:/participate[participate].
+Infrastructure is no exception, we are always link:/projects/infrastructure/#contributing[looking for new contributors] to the infrastructure!
 
-We have a vision to be a community effort trying to be as transparent as possible.
-What better way than using git to manage infrastructure work?
+While we can’t share publicly everything like secrets, certificates,…​ 
+we still try to be as transparent as possible so that everybody can understand and improve our infrastructure without having privileged access.
+What better way than using Git to manage infrastructure work?
 
 == Who said GitOps?
 
@@ -40,7 +39,7 @@ Since the creation of the link:https://github.com/jenkins-infra[Jenkins-infra or
 Those contributions make the Jenkins community what it is today.
 If you can't find something there, it probably means that some help is welcomed.
 
-More recently, with help from link:https://github.com/halkeye[Gavin Mogan], link:https://github.com/timja[Tim Jacomb], and link:https://github.com/slide[Alex Earl], big achievements have been possible on many fronts like automating jenkins releases, refreshing link:https://plugins.jenkins.io/[plugins.jenkins.io], adding new agents to link:https://ci.jenkins.io/computer/[ci.jenkins.io], and maintaining our kubernetes cluster.
+More recently, with help from link:https://github.com/halkeye[Gavin Mogan], link:https://github.com/timja[Tim Jacomb], and link:https://github.com/slide[Alex Earl], big achievements have been possible on many fronts like automating Jenkins releases, refreshing link:https://plugins.jenkins.io/[plugins.jenkins.io], adding new agents to link:https://ci.jenkins.io/computer/[ci.jenkins.io], and maintaining our Kubernetes cluster.
 We thank them for their help and for the infrastructure progress they have enabled.
 
 == Infrastructure at Scale
@@ -56,7 +55,7 @@ The generous infrastructure donation from Amazon Web Services has increased our 
 
 == Our Sponsors
 
-Sponsors of the Jenkins project include
+Sponsors of the Jenkins infrastructure include
 CloudBees,
 OSU Open Source Lab,
 Continuous Delivery Foundation,
