@@ -23,13 +23,12 @@ Just to provide some context about the Jenkins infrastructure scale, here are so
 * Over 43 000 continuous integration jobs ran on link:https://ci.jenkins.io/[ci.jenkins.io]
 * Over 950 plugins ran their continuous integration pipelines on link:https://ci.jenkins.io/[ci.jenkins.io]
 
-
 The Jenkins project, as an open source project, is built and maintained by its awesome community.
 Like in any organization, there are specific people who make sure that those services are always up and running.
 Everyone is welcome to link:/participate[participate].
 Infrastructure is no exception, we are always link:/projects/infrastructure/#contributing[looking for new contributors] to the infrastructure!
 
-While we can’t share publicly everything like secrets, certificates,…​ 
+While we can't share publicly everything like secrets and certificates,
 we still try to be as transparent as possible so that everybody can understand and improve our infrastructure without having privileged access.
 What better way than using Git to manage infrastructure work?
 
@@ -55,26 +54,27 @@ The generous infrastructure donation from Amazon Web Services has increased our 
 
 == Our Sponsors
 
-Sponsors of the Jenkins infrastructure include
-CloudBees,
-OSU Open Source Lab,
-Continuous Delivery Foundation,
-Red Hat,
-Amazon Web Services,
-GitHub,
-Rackspace,
-Datadog,
-Fastly,
-Atlassian,
-JFrog,
-Pagerduty,
-Sentry,
-Xmission,
-Serverion,
-Tsinghua university,
-SpinUp,
-Jira, and
-IBM.
+Major sponsors of the Jenkins infrastructure include
+link:https://cloudbees.com/[CloudBees],
+link:https://osuosl.org/[Oregon State University Open Source Lab],
+link:https://cd.foundation/[Continuous Delivery Foundation],
+link:https://redhat.com/[Red Hat],
+link:https://aws.amazon.com/[Amazon Web Services], and
+link:https://github.com/[GitHub].
+
+Additional sponsors of Jenkins infrastructure services and software include
+link:https://www.atlassian.com/[Atlassian],
+link:https://www.datadoghq.com/[Datadog],
+link:https://www.fastly.com/[Fastly],
+link:https://www.ibm.com/[IBM].
+link:https://jfrog.com/[JFrog],
+link:https://www.pagerduty.com/[Pagerduty],
+link:https://www.rackspace.com/[Rackspace],
+link:https://www.sentry.io/[Sentry],
+link:https://www.serverion.com/[Serverion],
+link:https://spinup.com/[SpinUp],
+link:https://www.tsinghua.edu.cn/[Tsinghua University], and
+link:https://xmission.com/[XMission].
 
 Each of these organizations support the Jenkins project in their own way.
 We thank them for their contributions, their support and for their willingness to help the Jenkins community.
