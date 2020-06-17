@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS and Infrastructure Updates - Hello from Infra"
+title: "Jenkins Infrastructure: Stats, Updates, and AWS sponsorship"
 tags:
 - aws
 - community
