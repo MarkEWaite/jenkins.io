@@ -123,6 +123,20 @@ noanchors: true
       color: white;
   }
 
+
+  .bg-img-donate {
+      background-color: #889b73;
+  }
+
+  .btn-donate {
+      border: 1px solid #889b73;
+  }
+
+  .btn-donate:hover {
+      background-color: #889b73;
+      color: white;
+  }
+
   h3 {
       margin: 0;
   }
@@ -190,11 +204,11 @@ noanchors: true
       %p.p1 Help review changes to code or documentation.
       %a.btn.btn-review.bl{ :href => "/participate/review-changes"} Read More
   .card
-    .bg-img.bg-img-review
+    .bg-img.bg-img-donate
     .content
       %h3 DONATE
       %p.p1 If you have no time but want to help, we accept money to facilitate project goals.
-      %a.btn.btn-review.bl{ :href => "/donate"} Read More
+      %a.btn.btn-donate.bl{ :href => "/donate"} Read More
 
 %p.channels-help
   %b
